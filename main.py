@@ -32,5 +32,10 @@ def create_formatted_records(frm):
 
 create_formatted_records('^12')
 
+# разделяем число запятой на группы
 large_prime_number = 10000000
 print(f'разделяет число запятой на группы: {large_prime_number:,d}')
+
+# переводим число в проценты и после запятой 2 знака
+large_prime_number = 0.10000000
+print(f'разделяет число запятой на группы: {large_prime_number:.2%}')
