@@ -52,3 +52,17 @@ print(f'разделяет число запятой на группы: {large_p
 items = {'name': 'Vacuum', 'price': 130.675}
 print(f"{items['name']}: {{{items['price']:.2f}}}")
 
+
+
+print()
+
+user_input = input('введите текст состоящий только из букв и цифр: ')
+if user_input.isalnum():
+    """isalnum проверяет, что строка содержит только цифры и/или 
+    латинские/русские буквы a-z, A-Z, 0-9"""
+
+    print('текст корректный')
+else:
+    print('текст некорректный')
+
+print()
