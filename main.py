@@ -31,3 +31,6 @@ def create_formatted_records(frm):
 
 
 create_formatted_records('^12')
+
+large_prime_number = 10000000
+print(f'удобочитабельный формат числа: {large_prime_number: d}')
