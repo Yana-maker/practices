@@ -1,10 +1,14 @@
+prime_numbers = [1, 3, 5]
 
-a = "0550"
-b = 550
+# требуемый вывод (первое число это позиция в списке , второе - само значение)
+# Prime number # 1: 1
+# Prime number # 2: 3
+# Prime number # 3: 5
 
-if a == b:
-    print('sdfs')
+for num_pos, num in enumerate(prime_numbers, start=1):
+    print(f'Prime number # {str(num_pos)}: {str(num)}')
 
+print()
 
 tasks_id = [1, 2, 3]
 task_names = ['do hw', 'read book', 'watch youtube tutorial']
@@ -47,3 +51,4 @@ print(f'разделяет число запятой на группы: {large_p
 
 items = {'name': 'Vacuum', 'price': 130.675}
 print(f"{items['name']}: {{{items['price']:.2f}}}")
+
