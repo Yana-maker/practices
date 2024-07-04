@@ -52,8 +52,6 @@ print(f'разделяет число запятой на группы: {large_p
 items = {'name': 'Vacuum', 'price': 130.675}
 print(f"{items['name']}: {{{items['price']:.2f}}}")
 
-
-
 print()
 
 user_input = input('введите текст состоящий только из букв и цифр: ')
@@ -66,3 +64,13 @@ else:
     print('текст некорректный')
 
 print()
+
+
+list_str = '[1, 2, 3, 4, 5]'
+stripped_list = list_str.strip('[]')
+print(stripped_list)  # строка
+number_list = [int(x) for x in stripped_list.split(', ')]
+print(number_list)  # лист
+
+# добавляем новую запись в тестовую ветку чтобы слить ее с гл
+# авной dsfsdf sd
