@@ -1,5 +1,15 @@
 import re
 
+
+sd = ('sdfsdf', 'sdfsdfds')
+print(type(sd))
+a = tuple(sd)
+b = list(a)
+
+b.insert(1, a)
+print(b)
+
+
 task_pattern_r = re.compile(r'\\task')
 texts = ['\task', '\\task', '\\\task', '\\\\task',]
 for text in texts:
